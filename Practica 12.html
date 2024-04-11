@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Registro</title>
+  <link rel="stylesheet" href="styleP12.css">
+</head>
+<body1>
+    <div class="contenedor">
+        <h1>Conferencia anual de desarrollo web</h1>
+        <h2>Fecha 30 octubre 2024</h2>
+        <h3>Lugar: Centro de convenciones weblandia</h3>
+        <h4>!Registrate ahora para asegurar tu lugar</h4>
+        <img src ="https://png.pngtree.com/png-clipart/20230401/original/pngtree-golden-ticket-png-image_9017670.png" width="400" height="250" style="margin-top: -3vh;">
+    </div>
+</body1>
+<body>
+  <div class="container">
+    <h1>Registro de Eventos</h1>
+    <form id="registro">
+      <div class="form-group">
+        <label for="nombre">Nombre Completo:</label>
+        <input type="text" id="nombre" name="nombre" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="telefono">Número de Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+      </div>
+      <div class="form-group">
+        <label for="tipo-entrada" style="width: 380px;">Tipo de Entrada:</label>
+        <select id="entrada" name="entrada" required style="width: 380px;">
+          <option value="" >Seleccionar tipo de entrada</option>
+          <option value="General">General</option>
+          <option value="VIP">VIP</option>
+          <option value="Platinum">Platinum</option>
+        </select>
+      </div>
+      <button type="submit" style="color: black; background-color: greenyellow;">Enviar</button>
+    </form>
+    <p id="error-message"></p>
+  </div>
+<body2>
+  <h5 id="respuesta"></h5>
+  <h6 id="respuesta2"></h6>
+  <h7 id="respuesta3"></h7>
+  <h8 id="respuesta4"></h8>
+  
+</body2>
+  <script src="Practica12.js"></script>
+</body>
+</html>
